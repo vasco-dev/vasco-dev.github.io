@@ -1,0 +1,14 @@
+body{
+    font-family: monospace;
+}
+table {
+    padding: 100pt;
+    
+    color: aliceblue; 
+    display: block;
+    max-width: 1000px; 
+    width: 100%;     
+}
+a{
+    color: navajowhite;
+}
