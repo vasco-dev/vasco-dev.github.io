@@ -1,14 +1,37 @@
 body{
+    background-color:#1F1F1F;
+    color: #f0f8ff; 
     font-family: monospace;
 }
+div{
+    display: inline-flex;
+    margin:0;
+}
 table {
-    padding: 100pt;
-    
-    color: aliceblue; 
     display: block;
-    max-width: 1000px; 
-    width: 100%;     
+    max-width: 600px;
+    text-align: center;
+    
+}
+tr{
+    vertical-align: top;
+    width: 50%;
+}
+td{
+    
+}
+h1{
+    color: #f0f8ff;    
 }
 a{
-    color: navajowhite;
+    color: #ffdead;
+}
+img{
+    border: 10;
+    border-style: solid;
+    border-color: #f0f8ff;
+    margin-right: 20px; 
+}
+p{
+    text-align: left;
 }
