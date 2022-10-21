@@ -1,5 +1,5 @@
 <h2 align="center">Vasco Santos</h2>
-<table>
+<table align="center">
   <tbody>
     <tr>      
       <td width="50%" rowspan="4">
