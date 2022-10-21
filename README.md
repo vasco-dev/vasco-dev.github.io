@@ -3,7 +3,7 @@
   <tbody>
     <tr>      
       <td width="25%" rowspan="4">
-        <img alt="Profile Photo" src="./img/placeholder.png" style="width:100%" />
+        <img alt="Profile Photo" src="./docs/img/placeholder.png" style="width:100%" />
       </td>
       <td><b>Contacts</b></td>
     </tr>
