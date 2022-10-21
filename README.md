@@ -2,16 +2,18 @@
 <table align="center">
   <tbody>
     <tr>      
-      <td width="50%" rowspan="4">
-        <img alt="Photo" src="./img/placeholder.png" style="width:100%" />
+      <td width="25%" rowspan="4">
+        <img alt="Profile Photo" src="./img/placeholder.png" style="width:100%" />
       </td>
-      <td><b>Information</b></td>
+      <td><b>Contacts</b></td>
     </tr>
     <tr>
       <td>
         <ul>
-          <li>thoresonjd@gmail.com</li>
-          <li><a href="./pages/links.md">Links</a></li>
+            <li>vascosantos.dev@gmail.com</li>
+            <li>
+              <a href="./pages/links.md">Links</a>
+            </li>
         </ul>
       </td>
     </tr>
