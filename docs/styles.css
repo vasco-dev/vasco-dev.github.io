@@ -4,15 +4,15 @@ body{
     font-family: monospace;
 }
 table {
-    display: block; 
     column-count: 1;
+    display: block; 
 }
 h1{
     color: #f0f8ff;
     font-size: 48pt;
+    margin: 30;
     text-align: center;
     vertical-align: bottom;
-    margin: 30;
 }
 a{
     color: #ffdead;
@@ -52,10 +52,10 @@ a{
     .mainText{
         display:inline-block;
         font-size: 32pt;
-        text-align: center;
-        width: 100%;
         margin-bottom: 10px;
         margin-top: 10px;
+        text-align: center;
+        width: 100%;
     }
     .centerText{
         font-size: 18pt;
@@ -86,12 +86,12 @@ a{
         border-radius: 10px;
         border-style: solid;
         font-size: 32pt;
+        height: 60px;
         margin: 10;
         padding: 10;
         text-align: center;
         vertical-align:middle;
         width: 250px;
-        height: 60px;
     }
     .noUnderlineLink{    
         color: #ffdead;
