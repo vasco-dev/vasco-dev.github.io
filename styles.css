@@ -2,75 +2,164 @@ body{
     background-color:#2F2F2F;
     color: #f0f8ff; 
     font-family: monospace;
-    font-size-adjust: none;
 }
 table {
-    display: block;  
+    display: block; 
+    column-count: 1;
 }
 h1{
     color: #f0f8ff;
     font-size: 48pt;
-    text-align: bottom;
+    text-align: center;
     vertical-align: bottom;
 }
 a{
     color: #ffdead;
 }
-.mainDiv{
-    display: flex;
-    margin:0;
-    width: auto;
-}
-.profileImg{
-    border: 10;
-    border-radius: 10px;
-    border-color:#f0f8ff; 
-    border-style: solid;
-    margin-right: 20px;
-    width: 300px;
-}
 
-.mainText{
-    display:block;
-    width: 100%;
-    font-size: 18pt;
-    text-align: left;
+@media only screen and (orientation: portrait){
+
+    .mainDiv{
+        display: block;
+        margin:0;
+        width: 100%;
+    }
+    .phonePicture{
+        display: block;
+    }
+    .profileImgContainer{
+        display: none;
+        width: 100%;
+    }
+    .profileImg{
+        border: 10;
+        border-color:#f0f8ff; 
+        border-radius: 10px;
+        border-style: solid;
+        display: none;
+        margin: 20px;
+        width: 100%;
+
+    }
+
+    .mainText{
+        display:inline-flex;
+        font-size: 32pt;
+        text-align: left;
+        width: 100%;
+    }
+    .centerText{
+        font-size: 18pt;
+        text-align: center;
+        width: 100%;
+    }
+    .subheader{
+        display: flex;
+        font-size: 48pt;
+        font-weight: bold;
+        text-align:center;
+        width: 100%;
+    }
+    .navDiv{
+        display: inline-flex;
+        width: auto;
+    }
+    .navTable{    
+        margin-bottom: 30px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .navText{
+        /*background-color: #f0f8ff;*/
+        border: 10;
+        /*border-color:#f0f8ff;*/ 
+        border-color:#ffdead; 
+        border-radius: 10px;
+        border-style: solid;
+        font-size: 18pt;
+        margin: 10;
+        padding: 10;
+        text-align: center;
+        vertical-align:middle;
+        width: 200px;
+        height: 80px;
+    }
+    .noUnderlineLink{    
+        color: #ffdead;
+        text-decoration: none;
+    }
+
 }
-.centerText{
-    width: 100%;
-    font-size: 18pt;
-    text-align: center;
-}
-.subheader{
-    display: block;
-    font-size: 24pt;
-    font-weight: bold;
-    text-align:center;
-    width: 100%;
-}
-.navDiv{
-    display: inline-flex;
-    width: 100%;
-}
-.navTable{    
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-.navText{
-    /*background-color: #f0f8ff;*/
-    border: 10;
-    border-radius: 10px;
-    /*border-color:#f0f8ff;*/ 
-    border-color:#ffdead; 
-    border-style: solid;
-    font-size: 18pt;
-    margin: 10;
-    padding: 10;
-    text-align: center;
-    vertical-align: top;
-    width: 140px;
-}
-.noUnderlineLink{    
-    color: #ffdead;
-    text-decoration: none;
-}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+@media only screen and (orientation: landscape){
+    
+    .mainDiv{
+        display: flex;
+        margin:0;
+        width: auto;
+    }
+    .phonePicture{
+        display: none;
+    }
+    .profileImgContainer{
+        display: inline-flex;
+    }
+    .profileImg{
+        border: 10;
+        border-color:#f0f8ff; 
+        border-radius: 10px;
+        border-style: solid;
+        display: inline-flex;
+        margin-right: 20px;
+        width: 300px;
+    }
+
+    .mainText{
+        display:flex;
+        font-size: 18pt;
+        text-align: left;
+        width: 100%;
+    }
+    .centerText{
+        font-size: 18pt;
+        text-align: center;
+        width: 100%;
+    }
+    .subheader{
+        display: block;
+        font-size: 24pt;
+        font-weight: bold;
+        text-align:center;
+        width: 100%;
+    }
+    .navDiv{
+        display: inline-block;
+    }
+    .navTable{    
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .navText{
+        /*background-color: #f0f8ff;*/
+        border: 10;
+        /*border-color:#f0f8ff;*/ 
+        border-color:#ffdead; 
+        border-radius: 10px;
+        border-style: solid;
+        font-size: 18pt;
+        height: 30px;
+        margin: 10;
+        padding: 10;
+        text-align: center;
+        vertical-align: top;
+        width: 140px;
+    }
+    .noUnderlineLink{    
+        color: #ffdead;
+        text-decoration: none;
+    }
+}    
