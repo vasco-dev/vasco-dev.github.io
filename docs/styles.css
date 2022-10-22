@@ -25,6 +25,10 @@ a{
         width: 100%;
     }
     .phonePicture{
+        border: 10;
+        border-color:#f0f8ff; 
+        border-radius: 10px;
+        border-style: solid;
         display: block;
         margin-bottom: 100px;
         margin-top: 100px;
