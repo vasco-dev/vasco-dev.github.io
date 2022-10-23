@@ -37,7 +37,7 @@ a{
         margin: 10px;
     }
     .phonePicture{
-        border: 10;
+        border: 5pt;
         border-color:#f0f8ff; 
         border-radius: 10px;
         border-style: solid;
@@ -49,7 +49,7 @@ a{
         width: 100%;
     }
     .profileImg{
-        border: 10;
+        border: 5pt;
         border-color:#f0f8ff; 
         border-radius: 10px;
         border-style: solid;
@@ -91,7 +91,7 @@ a{
     }
     .navText{
         /*background-color: #f0f8ff;*/
-        border: 10;
+        border: 5pt;
         /*border-color:#f0f8ff;*/ 
         border-color:#8fddff; 
         border-radius: 10px;
@@ -123,7 +123,7 @@ a{
         width: auto;
     }
     .boxBorder{
-        border: 10;
+        border: 5pt;
         border-color:#8fddff; 
         border-radius: 10px;
         border-style: solid;
@@ -135,7 +135,7 @@ a{
         display: inline-flex;
     }
     .profileImg{
-        border: 10;
+        border: 5pt;
         border-color:#f0f8ff; 
         border-radius: 10px;
         border-style: solid;
@@ -171,7 +171,7 @@ a{
     }
     .navText{
         /*background-color: #f0f8ff;*/
-        border: 10;
+        border: 5pt;
         /*border-color:#f0f8ff;*/ 
         border-color:#8fddff; 
         border-radius: 10px;
