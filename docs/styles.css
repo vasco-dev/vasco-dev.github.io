@@ -1,5 +1,5 @@
 body{
-    background-color:#2F2F2F;
+    background-color:#3F3F3F;
     color: #f0f8ff; 
     font-family: monospace;
 }
@@ -15,7 +15,7 @@ h1{
     vertical-align: bottom;
 }
 a{
-    color: #ffdead;
+    color: #0396f7;
 }
 
 @media only screen and (orientation: portrait){
@@ -82,7 +82,7 @@ a{
         /*background-color: #f0f8ff;*/
         border: 10;
         /*border-color:#f0f8ff;*/ 
-        border-color:#ffdead; 
+        border-color:#0396f7; 
         border-radius: 10px;
         border-style: solid;
         font-size: 32pt;
@@ -94,7 +94,7 @@ a{
         width: 250px;
     }
     .noUnderlineLink{    
-        color: #ffdead;
+        color: #0396f7;
         text-decoration: none;
     }
 
@@ -156,7 +156,7 @@ a{
         /*background-color: #f0f8ff;*/
         border: 10;
         /*border-color:#f0f8ff;*/ 
-        border-color:#ffdead; 
+        border-color:#0396f7; 
         border-radius: 10px;
         border-style: solid;
         font-size: 18pt;
@@ -168,7 +168,7 @@ a{
         width: 140px;
     }
     .noUnderlineLink{    
-        color: #ffdead;
+        color: #0396f7;
         text-decoration: none;
     }
 }    
