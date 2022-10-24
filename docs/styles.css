@@ -6,7 +6,7 @@ body{
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-body::-webkit-scrollbar {
+body::-webkit-scrollbar{
   display: none;
 }
 table {
@@ -34,13 +34,17 @@ a{
 
 @media only screen and (orientation: portrait){
     .mainDiv{
-        display: block;
         margin:0;
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .logDiv{
         display: flex;
         width: 95%;
+        align-items: center;
+        justify-content: center;
     }
     .boxBorder{
         border: 0;
@@ -102,8 +106,10 @@ a{
         width: 100%;
     }
     .navDiv{
-        display: inline-flex;
         width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .navTable{    
         margin-bottom: 30px;
@@ -139,13 +145,18 @@ a{
 @media only screen and (orientation: landscape){
     
     .mainDiv{
-        display: flex;
         margin:0;
         width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .logDiv{
         display: flex;
-        width: 80%;
+        width: 80%;    
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .boxBorder{
         border: 2pt;
@@ -199,8 +210,10 @@ a{
         text-align:center;
         width: 100%;
     }
-    .navDiv{
-        display: inline-block;
+    .navDiv{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .navTable{    
         margin-bottom: 30px;
