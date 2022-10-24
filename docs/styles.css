@@ -32,6 +32,10 @@ a{
         margin:0;
         width: 100%;
     }
+    .logDiv{
+        display: flex;
+        width: 95%;
+    }
     .boxBorder{
         border: 0;
         margin: 10px;
@@ -121,6 +125,10 @@ a{
         display: flex;
         margin:0;
         width: auto;
+    }
+    .logDiv{
+        display: flex;
+        width: 80%;
     }
     .boxBorder{
         border: 2pt;
