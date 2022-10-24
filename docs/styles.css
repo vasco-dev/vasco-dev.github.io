@@ -193,7 +193,6 @@ a{
     }
 
     .mainText{
-        display:flex;
         font-size: 18pt;
         text-align: left;
         width: 100%;
@@ -231,7 +230,7 @@ a{
         margin: 10;
         padding: 10;
         text-align: center;
-        vertical-align: top;
+        vertical-align: middle;
         width: 140px;
     }
     .noUnderlineLink{    
