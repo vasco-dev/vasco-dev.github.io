@@ -2,6 +2,12 @@ body{
     background-color:#3F3F3F;
     color: #f0f8ff; 
     font-family: monospace;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 table {
     column-count: 1;
@@ -47,6 +53,17 @@ a{
         border-style: solid;
         display: block;
         width: 400px;
+    }
+    .phoneLogPicture{
+        border: 2pt;
+        border-color:#f0f8ff; 
+        border-radius: 10px;
+        border-style: solid;
+        display: block;
+        width: 400px;
+    }
+    .logImg{
+        display: none;
     }
     .profileImgContainer{
         display: none;
@@ -139,10 +156,22 @@ a{
     .phonePicture{
         display: none;
     }
+    .phoneLogPicture{
+        display:none;
+    }
     .profileImgContainer{
         display: inline-flex;
     }
     .profileImg{
+        border: 2pt;
+        border-color:#f0f8ff; 
+        border-radius: 10px;
+        border-style: solid;
+        display: inline-flex;
+        margin-right: 20px;
+        width: 300px;
+    }
+    .logImg{
         border: 2pt;
         border-color:#f0f8ff; 
         border-radius: 10px;
