@@ -40,11 +40,16 @@ a{
         align-items: center;
         justify-content: center;
     }
+    .topAlign{
+        vertical-align: top;
+    }
     .logDiv{
-        display: flex;
-        width: 95%;
         align-items: center;
+        display: flex;
         justify-content: center;
+        margin-top: 10pt;
+        margin-bottom: 10pt;
+        width: 95%;
     }
     .boxBorder{
         border: 0;
@@ -56,6 +61,7 @@ a{
         border-radius: 10px;
         border-style: solid;
         display: block;
+        vertical-align: top;
         width: 400px;
     }
     .phoneLogPicture{
@@ -64,10 +70,10 @@ a{
         border-radius: 10px;
         border-style: solid;
         display: block;
-        width: 400px;
         height: 400px;
         object-fit: cover;
-        object-position: 50% 50%;
+        object-position: 50% 50%;        
+        vertical-align: top;        width: 400px;
     }
     .logImg{
         display: none;
