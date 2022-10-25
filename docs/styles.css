@@ -16,7 +16,7 @@ table {
 h1{
     color: #f0f8ff;
     font-size: 36pt;
-    margin: 20;
+    margin-top: 50;
     text-align: center;
     vertical-align: bottom;
 }
@@ -95,7 +95,7 @@ a{
 
     .mainText{
         display:inline-block;
-        font-size: 32pt;
+        font-size: 18pt;
         margin-bottom: 10px;
         margin-top: 10px;
         text-align: center;
@@ -123,7 +123,6 @@ a{
     }
     .navTable{    
         margin-bottom: 30px;
-        margin-top: 20px;  
     }
     .navText{
         /*background-color: #f0f8ff;*/
@@ -205,7 +204,7 @@ a{
     }
 
     .mainText{
-        font-size: 18pt;
+        font-size: 16pt;
         text-align: left;
         text-justify: inter-word;
         width: 100%;        
@@ -229,7 +228,6 @@ a{
     }
     .navTable{    
         margin-bottom: 30px;
-        margin-top: 20px;
     }
     .navText{
         /*background-color: #f0f8ff;*/
