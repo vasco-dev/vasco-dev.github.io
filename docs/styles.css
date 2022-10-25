@@ -15,7 +15,7 @@ table {
 }
 h1{
     color: #f0f8ff;
-    font-size: 48pt;
+    font-size: 36pt;
     margin: 20;
     text-align: center;
     vertical-align: bottom;
@@ -94,6 +94,7 @@ a{
         margin-top: 10px;
         text-align: center;
         width: 100%;
+        text-justify: inter-word;
     }
     .centerText{
         font-size: 18pt;
@@ -109,15 +110,14 @@ a{
         width: 100%;
     }
     .navDiv{
-        width: auto;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .navTable{    
         margin-bottom: 30px;
-        margin-top: 20px;
-        width: 100%;
+        margin-top: 20px;  
     }
     .navText{
         /*background-color: #f0f8ff;*/
@@ -126,13 +126,13 @@ a{
         border-color:#8fddff; 
         border-radius: 10px;
         border-style: solid;
-        font-size: 32pt;
+        font-size: 28pt;
         height: 60px;
         margin: 10;
         padding: 10;
         text-align: center;
         vertical-align:middle;
-        width: 250px;
+        width: 240px;
     }
     .noUnderlineLink{    
         color: #8fddff;
@@ -201,7 +201,8 @@ a{
     .mainText{
         font-size: 18pt;
         text-align: left;
-        width: 100%;
+        text-justify: inter-word;
+        width: 100%;        
     }
     .centerText{
         font-size: 18pt;
