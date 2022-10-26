@@ -139,6 +139,21 @@ a{
         vertical-align:middle;
         width: 240px;
     }
+    .selectedNavText{
+        /*background-color: #f0f8ff;*/
+        border: 2pt;
+        /*border-color:#f0f8ff;*/ 
+        border-color:#f0f8ff; 
+        border-radius: 10px;
+        border-style: solid;
+        font-size: 18pt;
+        height: 30px;
+        margin: 10;
+        padding: 10;
+        text-align: center;
+        vertical-align: middle;
+        width: 140px;
+    }
     .noUnderlineLink{    
         color: #8fddff;
         text-decoration: none;
@@ -234,6 +249,21 @@ a{
         border: 2pt;
         /*border-color:#f0f8ff;*/ 
         border-color:#8fddff; 
+        border-radius: 10px;
+        border-style: solid;
+        font-size: 18pt;
+        height: 30px;
+        margin: 10;
+        padding: 10;
+        text-align: center;
+        vertical-align: middle;
+        width: 140px;
+    }
+    .selectedNavText{
+        /*background-color: #f0f8ff;*/
+        border: 2pt;
+        /*border-color:#f0f8ff;*/ 
+        border-color:#f0f8ff; 
         border-radius: 10px;
         border-style: solid;
         font-size: 18pt;
