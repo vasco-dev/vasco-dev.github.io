@@ -30,15 +30,17 @@ h2{
 a{
     color: #8fddff;
 }
-
+.icon{
+    border-radius: 50%;
+}
 
 @media only screen and (orientation: portrait){
     .mainDiv{
+        align-items: center;
+        display: flex;
+        justify-content: center;
         margin:0;
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     .topAlign{
         vertical-align: top;
