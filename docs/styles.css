@@ -1,283 +1,172 @@
-body{
-    background-color:#3F3F3F;
-    color: #f0f8ff; 
-    font-family: monospace;
-    overflow-x: hidden;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+/* Layout only. Component visuals come from cs16.css. */
+
+body {
+    min-height: 100vh;
+    padding: 32px 20px 64px;
 }
-body::-webkit-scrollbar{
-  display: none;
+
+.siteShell {
+    width: min(100%, 1040px);
+    margin: 0 auto;
 }
-table {
-    column-count: 1;
-    display: block; 
-}
-h1{
-    color: #f0f8ff;
-    font-size: 36pt;
-    margin-top: 50;
+
+h1 {
+    margin-bottom: 24px;
+    font-size: clamp(2rem, 7vw, 4rem);
     text-align: center;
-    vertical-align: bottom;
 }
-h2{
-    color: #8fddff;
-    font-size: 24pt;
-    margin: 30;
+
+h2 {
+    margin-bottom: 12px;
+    color: var(--accent);
+    font-size: clamp(1.25rem, 4vw, 1.75rem);
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: var(--accent);
+    font-size: 1.15rem;
+}
+
+p + p {
+    margin-top: 12px;
+}
+
+a {
+    color: var(--accent);
+}
+
+.siteTabs {
+    width: 100%;
+}
+
+.siteTabs > .label {
+    min-width: 120px;
     text-align: center;
-    vertical-align: bottom;
-}
-a{
-    color: #8fddff;
-}
-.icon{
-    border-radius: 50%;
 }
 
-@media only screen and (orientation: portrait){
-    .mainDiv{
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        margin:0;
-        width: 100%;
-    }
-    .topAlign{
-        vertical-align: top;
-    }
-    .logDiv{
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        margin-top: 10pt;
-        margin-bottom: 10pt;
-        width: 95%;
-    }
-    .boxBorder{
-        border: 0;
-        margin: 10px;
-    }
-    .phonePicture{
-        border: 2pt;
-        border-color:#f0f8ff; 
-        border-radius: 10px;
-        border-style: solid;
-        display: block;
-        vertical-align: top;
-        width: 400px;
-    }
-    .phoneLogPicture{
-        border: 2pt;
-        border-color:#f0f8ff; 
-        border-radius: 10px;
-        border-style: solid;
-        display: block;
-        height: 400px;
-        object-fit: cover;
-        object-position: 50% 50%;        
-        vertical-align: top;        width: 400px;
-    }
-    .logImg{
-        display: none;
-    }
-    .profileImgContainer{
-        display: none;
-        width: 100%;
-    }
-    .profileImg{
-        border: 2pt;
-        border-color:#f0f8ff; 
-        border-radius: 10px;
-        border-style: solid;
-        display: none;
-        margin: 20px;
-        width: 100%;
-
-    }
-
-    .mainText{
-        display:inline-block;
-        font-size: 18pt;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        text-align: center;
-        width: 100%;
-        text-justify: inter-word;
-    }
-    .centerText{
-        font-size: 18pt;
-        text-align: center;
-        width: 100%;
-    }
-    .subheader{
-        display: block;
-        font-size: 48pt;
-        font-weight: bold;
-        margin-top: 50px;
-        text-align:center;
-        width: 100%;
-    }
-    .navDiv{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .navTable{    
-        margin-bottom: 30px;
-    }
-    .navText{
-        /*background-color: #f0f8ff;*/
-        border: 2pt;
-        /*border-color:#f0f8ff;*/ 
-        border-color:#8fddff; 
-        border-radius: 10px;
-        border-style: solid;
-        font-size: 28pt;
-        height: 60px;
-        margin: 10;
-        padding: 10;
-        text-align: center;
-        vertical-align:middle;
-        width: 240px;
-    }
-    .selectedNavText{
-        /*background-color: #f0f8ff;*/
-        border: 2pt;
-        /*border-color:#f0f8ff;*/ 
-        border-color:#f0f8ff; 
-        border-radius: 10px;
-        border-style: solid;
-        font-size: 18pt;
-        height: 30px;
-        margin: 10;
-        padding: 10;
-        text-align: center;
-        vertical-align: middle;
-        width: 140px;
-    }
-    .noUnderlineLink{    
-        color: #8fddff;
-        text-decoration: none;
-    }
-
+.framePanel {
+    padding: 0 !important;
+    overflow: hidden;
 }
-/*----------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------*/
 
+.tabFrame {
+    display: block;
+    width: 100%;
+    height: 70vh;
+    min-height: 480px;
+    border: 0;
+}
 
-@media only screen and (orientation: landscape){
-    
-    .mainDiv{
-        margin:0;
-        width: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .logDiv{
-        display: flex;
-        width: 80%;    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .boxBorder{
-        border: 2pt;
-        border-color:#8fddff; 
-        border-radius: 10px;
-        border-style: solid;
-    }
-    .phonePicture{
-        display: none;
-    }
-    .phoneLogPicture{
-        display:none;
-    }
-    .profileImgContainer{
-        display: inline-flex;
-    }
-    .profileImg{
-        border: 2pt;
-        border-color:#f0f8ff; 
-        border-radius: 10px;
-        border-style: solid;
-        display: inline-flex;
-        margin-right: 20px;
-        width: 300px;
-    }
-    .logImg{
-        border: 2pt;
-        border-color:#f0f8ff; 
-        border-radius: 10px;
-        border-style: solid;
-        display: inline-flex;
-        margin-right: 20px;
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-        object-position: 50% 50%;
+.embeddedPage {
+    min-height: 0;
+    padding: 28px 38px;
+    overflow: auto;
+}
+
+.embeddedContent {
+    width: 100%;
+}
+
+.profileLayout {
+    display: grid;
+    grid-template-columns: minmax(220px, 320px) 1fr;
+    gap: 32px;
+    align-items: start;
+}
+
+.profileImg,
+.cardImage {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profileImg {
+    aspect-ratio: 1;
+}
+
+.contactList {
+    margin: 0 0 24px;
+    padding: 0;
+    list-style: none;
+}
+
+.contactList li + li {
+    margin-top: 8px;
+}
+
+.actionButton {
+    display: inline-block;
+    min-width: 120px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sectionIntro {
+    max-width: 720px;
+    margin: 0 auto 24px;
+    text-align: center;
+}
+
+.sectionBreak {
+    margin: 40px 0;
+}
+
+.projectList {
+    display: grid;
+    gap: 18px;
+}
+
+.portfolioCard {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 22px;
+    align-items: start;
+    width: 100%;
+    padding: 14px;
+}
+
+.cardImage {
+    aspect-ratio: 1;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 20px 10px 40px;
     }
 
-    .mainText{
-        font-size: 16pt;
-        text-align: left;
-        text-justify: inter-word;
-        width: 100%;        
-    }
-    .centerText{
-        font-size: 18pt;
+    .siteTabs > .label {
+        flex: 1;
+        min-width: 0;
+        font-size: 13px;
         text-align: center;
-        width: 100%;
     }
-    .subheader{
-        display: block;
-        font-size: 24pt;
-        font-weight: bold;
-        text-align:center;
-        width: 100%;
+
+    .siteTabs > .panel {
+        padding: 22px 14px 20px;
     }
-    .navDiv{ 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
+    .siteTabs > .framePanel {
+        padding: 0;
     }
-    .navTable{    
-        margin-bottom: 30px;
+
+    .embeddedPage {
+        padding: 22px 14px 20px;
     }
-    .navText{
-        /*background-color: #f0f8ff;*/
-        border: 2pt;
-        /*border-color:#f0f8ff;*/ 
-        border-color:#8fddff; 
-        border-radius: 10px;
-        border-style: solid;
-        font-size: 18pt;
-        height: 30px;
-        margin: 10;
-        padding: 10;
-        text-align: center;
-        vertical-align: middle;
-        width: 140px;
+
+    .profileLayout,
+    .portfolioCard {
+        grid-template-columns: 1fr;
     }
-    .selectedNavText{
-        /*background-color: #f0f8ff;*/
-        border: 2pt;
-        /*border-color:#f0f8ff;*/ 
-        border-color:#f0f8ff; 
-        border-radius: 10px;
-        border-style: solid;
-        font-size: 18pt;
-        height: 30px;
-        margin: 10;
-        padding: 10;
-        text-align: center;
-        vertical-align: middle;
-        width: 140px;
+
+    .profileImg {
+        max-width: 360px;
+        margin: 0 auto;
     }
-    .noUnderlineLink{    
-        color: #8fddff;
-        text-decoration: none;
+
+    .cardImage {
+        max-height: 330px;
     }
-}    
+}
