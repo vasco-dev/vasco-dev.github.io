@@ -5,3 +5,5 @@ Disallow: /other-candidates/
 Disallow: /skipping-vasco-santos/
 Disallow: /giant-bag-of-cash/
 Allow: /
+
+Sitemap: https://vasco-dev.github.io/sitemap.xml
