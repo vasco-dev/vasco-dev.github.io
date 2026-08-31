@@ -4,21 +4,28 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Vasco Santos" />
+    <meta name="description" content="Portfolio of Vasco Santos, a game developer working with Unity, Unreal Engine and GB Studio." />
+    <meta property="og:title" content="Vasco Santos - Game Developer" />
+    <meta property="og:description" content="Professional experience, personal games and development logs by Vasco Santos." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vasco-dev.github.io/" />
+    <meta property="og:image" content="https://vasco-dev.github.io/docs/img/pfp.png" />
+    <link rel="canonical" href="https://vasco-dev.github.io/" />
     <title>Vasco Santos</title>
     <link rel="icon" href="docs/img/pfp.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ekmas/cs16.css@main/css/cs16.min.css" />
     <link rel="stylesheet" href="./docs/styles.css" />
-    <script src="./docs/tabs.js" defer></script>
 </head>
 <body>
     <main class="siteShell">
         <h1>Vasco Santos</h1>
-        <div class="cs-tabs siteTabs">
-            <input class="radiotab" name="portfolio-tabs" tabindex="1" type="radio" id="home-tab" checked />
+        <fieldset class="cs-tabs siteTabs">
+            <legend class="visuallyHidden">Portfolio sections</legend>
+            <input class="radiotab" name="portfolio-tabs" type="radio" id="home-tab" checked />
             <label class="label" for="home-tab">HOME</label>
-            <section class="panel" tabindex="0">
+            <section class="panel">
                 <div class="profileLayout">
-                    <img class="profileImg cs-input" alt="Vasco Santos" src="./docs/img/pfp.png" />
+                    <img class="profileImg cs-frame" alt="Vasco Santos" src="./docs/img/pfp.png" width="1600" height="1600" decoding="async" />
                     <div>
                         <h2>CONTACTS</h2>
                         <ul class="contactList">
@@ -34,18 +41,18 @@
                 </div>
             </section>
 
-            <input class="radiotab" name="portfolio-tabs" tabindex="1" type="radio" id="experience-tab" />
+            <input class="radiotab" name="portfolio-tabs" type="radio" id="experience-tab" />
             <label class="label" for="experience-tab">EXPERIENCE</label>
-            <section class="panel framePanel" tabindex="0">
-                <iframe class="tabFrame" src="./experience.html" title="Experience and personal projects" scrolling="auto"></iframe>
+            <section class="panel framePanel">
+                <iframe class="tabFrame" src="./experience.html" title="Experience and personal projects" loading="lazy"></iframe>
             </section>
 
-            <input class="radiotab" name="portfolio-tabs" tabindex="1" type="radio" id="logs-tab" />
+            <input class="radiotab" name="portfolio-tabs" type="radio" id="logs-tab" />
             <label class="label" for="logs-tab">LOGS</label>
-            <section class="panel framePanel" tabindex="0">
-                <iframe class="tabFrame" src="./logs.html" title="Development logs" scrolling="auto"></iframe>
+            <section class="panel framePanel">
+                <iframe class="tabFrame" src="./logs.html" title="Development logs" loading="lazy"></iframe>
             </section>
-        </div>
+        </fieldset>
     </main>
 </body>
 </html>
