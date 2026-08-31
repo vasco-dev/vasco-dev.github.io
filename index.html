@@ -11,7 +11,7 @@
     <meta property="og:url" content="https://vasco-dev.github.io/" />
     <meta property="og:image" content="https://vasco-dev.github.io/docs/img/pfp.png" />
     <link rel="canonical" href="https://vasco-dev.github.io/" />
-    <title>Vasco | Game Developer</title>
+    <title>Vasco Santos | Game Developer</title>
     <link rel="icon" href="docs/img/pfp.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ekmas/cs16.css@main/css/cs16.min.css" />
     <link rel="stylesheet" href="./docs/styles.css" />
@@ -22,37 +22,42 @@
         <fieldset class="cs-tabs siteTabs">
             <legend class="visuallyHidden">Portfolio sections</legend>
             <input class="radiotab" name="portfolio-tabs" type="radio" id="home-tab" checked />
-            <label class="label" for="home-tab">HOME</label>
+            <label class="label" for="home-tab">Home</label>
             <section class="panel">
                 <div class="profileLayout">
                     <img class="profileImg cs-frame" alt="Vasco Santos" src="./docs/img/pfp.png" width="1600" height="1600" decoding="async" />
-                    <div>
-                        <h2>CONTACTS</h2>
-                        <ul class="contactList">
+                    <div >
+                        <h2>Contacts</h2>
+                        <ul class="cs-panel contactList">
                             <li><a href="mailto:vascosantos.dev@gmail.com">vascosantos.dev@gmail.com</a></li>
-                            <li><a href="https://www.linkedin.com/in/vasco-santos-dev/">LinkedIn</a></li>
+                            <li><a href="https://www.linkedin.com/in/vascosantos-dev/">LinkedIn</a></li>
                             <li><a href="https://vascosantos.itch.io/">Itch.io</a></li>
                             <li><a href="https://twitter.com/vasco_dev">Twitter</a></li>
                         </ul>
                         <hr class="cs-hr" />
-                        <h2>RESUME / CV</h2>
+                        <h2>Resume / CV</h2>
                         <a href="docs/CV-VascoSantos.pdf" class="cs-btn actionButton">OPEN</a>
                     </div>
                 </div>
             </section>
 
             <input class="radiotab" name="portfolio-tabs" type="radio" id="experience-tab" />
-            <label class="label" for="experience-tab">EXPERIENCE</label>
+            <label class="label" for="experience-tab">Experience</label>
             <section class="panel framePanel">
                 <iframe class="tabFrame" src="./experience.html" title="Experience and personal projects"></iframe>
             </section>
 
             <input class="radiotab" name="portfolio-tabs" type="radio" id="logs-tab" />
-            <label class="label" for="logs-tab">LOGS</label>
+            <label class="label" for="logs-tab">Logs</label>
             <section class="panel framePanel">
                 <iframe class="tabFrame" src="./logs.html" title="Development logs"></iframe>
             </section>
         </fieldset>
     </main>
+    <footer class="siteFooter">
+        <a href="./experience.html">Experience</a>
+        <span aria-hidden="true"> - </span>
+        <a href="./logs.html">Logs</a>
+    </footer>
 </body>
 </html>
